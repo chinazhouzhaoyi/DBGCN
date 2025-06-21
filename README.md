@@ -21,6 +21,7 @@ Chen, M., Wei, Z., Huang, Z., Ding, B., & Li, Y. (2020, November). Simple and de
 - scikit-learn == 1.2.2
 - scipy == 1.10.1
 - pandas == 2.3.0
+- linux
 
 ## Introduction
 
