@@ -30,7 +30,8 @@ Chen, M., Wei, Z., Huang, Z., Ding, B., & Li, Y. (2020, November). Simple and de
 
 ## Quick Start
 The main open-source project can be divided into 3 steps.  
-Partial source data from the paper provided in the folder [./source_data] 
+The source data PlantNet sub-dataset and Soybean-MVS sub-dataset used in the paper are provided in the folder [./source_data] 
+The following is a complete process example using the Soybean-MVS sub-dataset as an example.  PlantNet sub-dataset or other point cloud datasets can be implemented according to the above process.
 ### step1. build graph representation
 
 ### step2. build sparse labeling indexs
