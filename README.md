@@ -1,5 +1,5 @@
 # DBGCN
-This repo contains the official codes for our paper:
+This repo at __master branch__ contains the official codes for our paper:
 
 ### DBGCN: Dual-branch Graph Convolutional Network for organ instance inference on sparsely labeled 3D plant data
 [Dawei Li](https://davidleepp.github.io/)<sup>[†](#myfootnote1)</sup>, Zhaoyi Zhou<sup>[†](#myfootnote1)</sup>, Si Yang and Weiliang Wen
