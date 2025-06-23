@@ -24,7 +24,7 @@ Chen, M., Wei, Z., Huang, Z., Ding, B., & Li, Y. (2020, November). Simple and de
 
 ## Introduction
 
-![](docs/DBGCN_diagram.jpg)![](docs/DBGCN_diagram.jpg)
+![](docs/DBGCN_diagram.jpg)
 
 
 ## Quick Start
