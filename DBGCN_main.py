@@ -102,15 +102,15 @@ parser.add_argument('--epochs', type=int, default=200,
 parser.add_argument('--lr', type=float, default=0.0005, #learning rate
                     help='Initial learning rate.')
 parser.add_argument('--hidden', type=int, default= 128, #number of hidden feature
-                    help='Number of hidden units.')
+                    help='Number of hidden units, 64 for plants, 128 for soybean.')
 parser.add_argument('--trainNum', type=int, default=200, metavar='N',
-                    help='RS init idx')
+                    help='the number of training set')
 parser.add_argument('--idx', type=int, default=3, metavar='N',
-                    help='RS init idx')
+                    help='RS labeling strategy init idx')
 parser.add_argument('--ks', type=int, default=20, metavar='N',
                     help='Num of static_k')
 parser.add_argument('--kd', type=int, default=20, metavar='N',
-                    help='Num of nearest neighbors to use')
+                    help='Num of dynamic_k')
 parser.add_argument('--dropout', type=float, default=0.0,
                     help='Dropout rate (1 - keep probability).')
 parser.add_argument('--wd1', type=float, default=0.01, help='weight decay (L2 loss on parameters).')
@@ -121,7 +121,7 @@ parser.add_argument('--alpha', type=float, default=0.1, help='alpha_l')
 parser.add_argument('--variant', action='store_true', default=False, help='GCN* model.')
 parser.add_argument('--adj_folder', type=str, default='./examples/adj_folder_k', help='the storage folder of adjacency matrixs')
 parser.add_argument('--content_folder', type=str, default='./examples/content_folder_k', help='the storage folder of similarity matrixs')
-parser.add_argument('--train_idx_folder', type=str, default='./examples/RS_train_idx', help='the storage folder of model results')
+parser.add_argument('--train_idx_folder', type=str, default='./examples/RS_train_idx', help='the storage folder of training indexs')
 parser.add_argument('--result_folder', type=str, default='./examples/results', help='the storage folder of model results')
 
 args = parser.parse_args()
