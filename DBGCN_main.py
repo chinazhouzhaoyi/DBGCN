@@ -202,7 +202,6 @@ if __name__ == '__main__':
             {'params': model.params1, 'weight_decay': args.wd1},  # SGCB params
             {'params': model.params_dynamic, "lr": args.lr * 0.1},  # DGCB params
             {'params': model.params_norm, "lr": args.lr * 0.1},  # align layerNorm params
-            # {'params': model.params_last_fc, 'weight_decay': args.wd2,"lr": args.lr * 0.1},  # last fc params
                                 ],lr=args.lr)
         if args.cuda:
             model.cuda()
