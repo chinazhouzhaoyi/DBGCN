@@ -11,9 +11,10 @@ Published on *Plant Phenomics* in 2026<br>
 
 ---
 ## Acknowledgement
-Part of our code was descended and modified from the open-source code by Ming Chen, Zhewei Wei, Zengfeng Huang, Bolin Ding, and Yaliang Li. Their original code can be found at:  https://github.com/chennnM/GCNII.
-Their related paper is as follows:
-Chen, M., Wei, Z., Huang, Z., Ding, B., & Li, Y. (2020, November). Simple and deep graph convolutional networks. In International conference on machine learning (pp. 1725-1735). PMLR.
+Part of our code was descended and modified from the open-source code by Ming Chen, Zhewei Wei, Zengfeng Huang, Bolin Ding, and Yaliang Li.<br>
+Their original code can be found at:  https://github.com/chennnM/GCNII.<br>
+Their related paper is as follows:<br>
+Chen, M., Wei, Z., Huang, Z., Ding, B., & Li, Y. (2020, November). Simple and deep graph convolutional networks. In: International conference on machine learning (pp. 1725-1735). PMLR.<br>
 
 ## Prerequisites
 - Python == 3.7  
