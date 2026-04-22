@@ -33,11 +33,12 @@ Chen, M., Wei, Z., Huang, Z., Ding, B., & Li, Y. (2020, November). Simple and de
 
 ## Quick Start
 The main open-source project working on Linux can be divided into 3 steps.  
-Partial source data sampled by FPS from the paper provided in the folder [./source_data], there are __PlantNet sub-dataset__  and __Soybean-MVS sub-dataset__ respectively.  
-The original point cloud data format is [x, y, z, labels], x,y adn z represent XYZ coordinates.   
-This project gives executable examples in the folder [./examples].
-### step1. build graph representation
-The labeled point cloud data is processed as the input of GCN network, and the adjacency matrix and graph feature CSV file are output.  
+Partial source data sampled by FPS from the paper are provided in the folder [./source_data]; two data subsets can be found at __PlantNet sub-dataset__  and __Soybean-MVS sub-dataset__ , respectively.  
+The original point cloud data format is [x, y, z, labels], in which x, y, and z represent coordinates.   
+This project also provides executable examples in the folder [./examples].
+
+### Step1. Build graph representation
+The partially labeled point cloud data is processed as the input of GCN network, and the adjacency matrix and graph feature CSV file are output.  
 Please specify the super parameter before executing the [build_graph_representation.py],  
 including --source_data --Knum --adj_store_fold --content_store_fold.
 ```
