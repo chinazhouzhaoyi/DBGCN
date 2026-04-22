@@ -27,8 +27,9 @@ Chen, M., Wei, Z., Huang, Z., Ding, B., & Li, Y. (2020, November). Simple and de
 
 ## Introduction
 3D crop phenotyping technology provides critical support for screening morphology-related plant genes and identification of germplasm resource. Organ segmentation or recognition is the first key step in 3D crop phenotyping, where inductive deep learning currently dominates as the mainstream methodology. However, the high requirement for data annotation in inductive learning paradigm has transformed the manual data labeling into a labor-intensive task, thereby in turn restricting the progress of inductive learning. This problem has inspired us to leverage Graph Neural Networks (GNNs) as the transductive learning tool to directly segment organs on sparsely annotated crop point clouds. We propose a Dual-branch Graph Convolutional Network (DBGCN) that only requires sparse labels to perform organ instance inference directly on plant point clouds that have featureless point features. Different from existing graph-based networks, DBGCN not only carries out the static-feature-space graph convolutions that are good at mining and aggregating on local information on the point cloud, but also incorporates dynamic graph convolutions that captures the potential changes of the graph manifold in deep feature space. Extensive experiments prove that the fusion of two types of graph feature convolutions brings a high node (point) classification accuracy, outperforming mainstream GNNs and even several popular inductive deep architectures. On the PlantNet sub-dataset, DBGCN achieves an mAcc (mean accuracy of node classification) of 93.00% under 1.95% manual annotation ratio. On the Soybean-MVS sub-dataset, DBGCN achieves an mAcc of 91.05% under 4.88% manual annotation ratio. Furthermore, our DBGCN not only works well on crop 3D data but can also serve other applications such as the segmentation of point cloud data for large-scale street view.
-![](docs/DBGCN_diagram.jpg)
 
+![](docs/DBGCN1.jpg)
+![](docs/DBGCN2.jpg)
 
 ## Quick Start
 The main open-source project working on Linux can be divided into 3 steps.  
