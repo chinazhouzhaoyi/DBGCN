@@ -38,16 +38,16 @@ The original point cloud data format is [x, y, z, labels], in which x, y, and z 
 This project also provides executable examples in the folder [./examples].
 
 ### Step1. Build graph representation
-The partially labeled point cloud data is processed as the input of GCN network, and the adjacency matrix and graph feature CSV file are output.  
-Please specify the super parameter before executing the [build_graph_representation.py],  
+The partially labeled point cloud data is treated as the input of our GCN network, and the adjacency matrix and graph feature CSV file are the output.  
+Please specify the hyperparameters before executing the [build_graph_representation.py],  
 including --source_data --Knum --adj_store_fold --content_store_fold.
 ```
 python build_graph_representation.py
 ```
-After processing, you will see the adjacency matrix with '.txt' as suffix is stored in the [./examples/adj_store_fold], 
-and the graph feature matrix with '.csv' as suffix is stored in the [./examples/content_store_fold].
+After processing, the adjacency matrix with '.txt' suffix will be stored in the [./examples/adj_store_fold], 
+and the graph feature matrix with '.csv' suffix will be stored in the [./examples/content_store_fold].
 
-### step2. build sparse labeling indexs
+### Step2. build sparse labeling indexs
 Calculate the index of the training point set in the point cloud,
 simulate the random labeling strategy and extreme labeling strategy of manual annotation.  
 Please specify the super parameter before executing the [build_sparse_labeling.py],  
