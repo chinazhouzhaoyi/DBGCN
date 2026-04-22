@@ -2,14 +2,16 @@
 This repo contains the official codes for our paper:
 
 ### DBGCN: Dual-branch Graph Convolutional Network for organ instance inference on sparsely labeled 3D plant data
-[Dawei Li](https://davidleepp.github.io/)<sup>[†](#myfootnote1)</sup>, Zhaoyi Zhou<sup>[†](#myfootnote1)</sup>, Si Yang and Weiliang Wen
+[Dawei Li](https://davidleepp.github.io/)<sup>[†](#myfootnote1)</sup>, Zhaoyi Zhou<sup>[†](#myfootnote1)</sup>, Si Yang, and Weiliang Wen*
+† Equal contribution<br>
+Published on *Plant Phenomics* in 2026<br>
+[[Paper](https://www.sciencedirect.com/science/article/pii/S2643651526000257)]<br>
+[[8-minute Presentation](https://www.bilibili.com/video/BV1AFPszNEr1)]<br>
 
-<a name="myfootnote1">†</a> _Equal contribution_
 
 ---
 ## Acknowledgement
-Part of our code was descended and modified from the open-source code by Ming Chen, Zhewei Wei and Zengfeng Huang, Bolin Ding and Yaliang Li. Their original code can be found at:  https://github.com/chennnM/GCNII.
-
+Part of our code was descended and modified from the open-source code by Ming Chen, Zhewei Wei, Zengfeng Huang, Bolin Ding, and Yaliang Li. Their original code can be found at:  https://github.com/chennnM/GCNII.
 Their related paper is as follows:
 Chen, M., Wei, Z., Huang, Z., Ding, B., & Li, Y. (2020, November). Simple and deep graph convolutional networks. In International conference on machine learning (pp. 1725-1735). PMLR.
 
